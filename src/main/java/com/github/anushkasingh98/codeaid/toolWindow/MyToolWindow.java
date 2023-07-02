@@ -1,4 +1,4 @@
 package com.github.anushkasingh98.codeaid.toolWindow;
 
-public class MyToolWindowFactory {
+public class MyToolWindow {
 }
