@@ -2,7 +2,11 @@
 <idea-plugin>
     <id>com.github.anushkasingh98.codeaid</id>
     <name>CodeAID</name>
-    <vendor>anushkasingh98</vendor>
+    <vendor email="hello@codeaidtech.com" url="www.codeaidtech.com">CodeAID Technologies</vendor>
+
+    <description><![CDATA[
+        It's our first free plugin that creates documentation automatically.
+    ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
 
