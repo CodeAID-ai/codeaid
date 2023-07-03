@@ -17,7 +17,10 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-It's our first free plugin that creates documentation automatically.
+CodeAID will help you automatically generate documentation for your code. Simply select your code and click on the CodeAID option to automatically generate documentation using AI. 
+
+Our functionality is currently in development. But please stay tuned for updates coming very soon!
+
 <!-- Plugin description end -->
 
 ## Installation
