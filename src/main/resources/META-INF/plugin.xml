@@ -8,12 +8,23 @@
         It's our first free plugin that creates documentation automatically.
     ]]></description>
 
+    <change-notes>
+        Initial release.
+    </change-notes>
+
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.AutoDocumentation</resource-bundle>
 
     <actions>
-
+        <action id=""
+                class=""
+                text="Switch Case..."
+                description="Popup Switch Case String Manipulation ..."
+                icon="">
+            <add-to-group group-id="EditMenu" anchor="last"/>
+        </action>
+        <action class=""
     </actions>
 
 <!--    <extensions defaultExtensionNs="com.intellij">-->
