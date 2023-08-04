@@ -2,11 +2,12 @@
 <idea-plugin>
     <id>CodeAID</id>
     <name>CodeAID</name>
-    <vendor email="hello@codeaidtech.com" url="www.codeaidtech.com">CodeAID Technologies</vendor>
+    <vendor email="hello@codeaidtech.com" url="www.codeaidtech.com" >CodeAID Technologies</vendor>
 
-    <description><![CDATA[
-        It's our first free plugin that creates documentation automatically.
-    ]]></description>
+
+<!--    <description><![CDATA[-->
+<!--        It's our first free plugin that creates documentation automatically.-->
+<!--    ]]></description>-->
 
     <change-notes>
         Initial release.
@@ -17,14 +18,18 @@
     <resource-bundle>messages.AutoDocumentation</resource-bundle>
 
     <actions>
-        <action id=""
-                class=""
-                text="Switch Case..."
-                description="Popup Switch Case String Manipulation ..."
-                icon="">
-            <add-to-group group-id="EditMenu" anchor="last"/>
+<!--        <action id=""-->
+<!--                class=""-->
+<!--                text="Switch Case..."-->
+<!--                description="Popup Switch Case String Manipulation ..."-->
+<!--                icon="">-->
+<!--            <add-to-group group-id="EditMenu" anchor="last"/>-->
+<!--        </action>-->
+<!--        <action class=""-->
+        <action id="com.github.anushkasingh98.codeaid.CaptureSelectedCodeAction"
+                class="com.github.anushkasingh98.codeaid.CaptureSelectedCodeAction" text="Select-Data">
+            <add-to-group group-id="MainMenu" anchor="first"/>
         </action>
-        <action class=""
     </actions>
 
 <!--    <extensions defaultExtensionNs="com.intellij">-->
